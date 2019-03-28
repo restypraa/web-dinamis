@@ -1,0 +1,100 @@
+<?php
+ 
+$data = array(
+ 
+'Data Mahasiswa 1' => array('Nama Mahasiswa' => array('Resty Indah Pratiwi'), 'Prodi' => array('Sistem Informasi')),
+ 
+'Data Mahasiswa 2' => array('Nama Mahasiswa' => array('Chusnul Khotimah'), 'Prodi' => array('Sistem Informasi')),
+ 
+'Data Mahasiswa3' =>array('Nama Mahasiswa' => array('Vetliyanti Mavika Sari'), 'Prodi' => array('Sistem Informasi')),
+ 
+ 'Data Mahasiswa4' =>array('Nama Mahasiswa' => array('Solikhan Duwi Astuti'), 'Prodi' => array('Sistem Informasi')),
+ 
+ 'Data Mahasiswa5' =>array('Nama Mahasiswa' => array('Ani Susilowati'), 'Prodi' => array('Sistem Informasi')),
+);
+
+//menampilkan perulangan array multidimensi
+foreach($data as $name => $data){
+ echo $name . '<br/>';
+ foreach($data as $name2 => $value){
+ echo $name2 . ' : ' . $value[0] .'<br> ';
+ 
+ }
+ 
+ echo'<br/>';
+}
+echo '============================================================================================';
+ echo '<br/>';
+
+$alamat = array(
+ 
+'Data Alamat 1' => array('Nama Mahasiswa' => array('Resty Indah Pratiwi'), 'Alamat' => array('Sleman')),
+ 
+'Data Alamat 2' => array('Nama Mahasiswa' => array('Chusnul Khotimah'), 'Alamat' => array('Tegal')),
+ 
+'Data Alamat3' =>array('Nama Mahasiswa' => array('Vetliyanti Mavika Sari'), 'Alamat' => array('Lampung')),
+ 
+ 'Data Alamat 4' =>array('Nama Mahasiswa' => array('Solikhan Duwi Astuti'), 'Alamat' => array('Kulon rogo')),
+ 
+ 'Data Alamat 5' =>array('Nama Mahasiswa' => array('Ani Susilowati'), 'Alamat' => array('Bantul')),
+);
+
+//menampilkan perulangan array multidimensi
+foreach($alamat as $name => $data){
+ echo $name . '<br/>';
+ foreach($data as $name2 => $value){
+ echo $name2 . ' : ' . $value[0] .'<br> ';
+ }
+ echo '<br/>';
+ }
+ echo '============================================================================================';
+ echo '<br/>';
+ 
+ $umur = array(
+ 
+'Data Umur 1' => array('Nama Mahasiswa' => array('Resty Indah Pratiwi'), 'umur' => array('19')),
+ 
+'Data Umur 2' => array('Nama Mahasiswa' => array('Chusnul Khotimah'), 'umur' => array('18')),
+ 
+'Data Umur 3' =>array('Nama Mahasiswa' => array('Vetliyanti Mavika Sari'), 'umur' => array('19')),
+ 
+ 'Data Umur 4' =>array('Nama Mahasiswa' => array('Solikhan Duwi Astuti'), 'umur' => array('17')),
+ 
+ 'Data Umur 5' =>array('Nama Mahasiswa' => array('Ani Susilowati'), 'umur' => array('18')),
+);
+
+//menampilkan perulangan array multidimensi
+foreach($umur as $name => $data){
+ echo $name . '<br/>';
+ foreach($data as $name2 => $value){
+ echo $name2 . ' : ' . $value[0] .'<br> ';
+ }
+ echo '<br/>';
+}
+echo '============================================================================================';
+ echo '<br/>';
+ 
+ $hobi = array(
+ 
+'Data Hobi 1' => array('Nama Mahasiswa' => array('Resty Indah Pratiwi'), 'Hobi' => array('Makan')),
+ 
+'Data Hobi2' => array('Nama Mahasiswa' => array('Chusnul Khotimah'), 'Hobi' => array('Membaca Novel')),
+ 
+'Data Hobi 3' =>array('Nama Mahasiswa' => array('Vetliyanti Mavika Sari'), 'Hobi' => array('Masak')),
+ 
+ 'Data Hobi 4' =>array('Nama Mahasiswa' => array('Solikhan Duwi Astuti'), 'Hobi' => array('Batminton')),
+ 
+ 'Data Hobi 5' =>array('Nama Mahasiswa' => array('Ani Susilowati'), 'Hobi' => array('Traveling')),
+);
+
+//menampilkan perulangan array multidimensi
+foreach($hobi as $name => $data){
+ echo $name . '<br/>';
+ foreach($data as $name2 => $value){
+ echo $name2 . ' : ' . $value[0] .'<br> ';
+ }
+ echo '<br/>';
+}
+echo '============================================================================================';
+ echo '<br/>';
+?>
